@@ -1,0 +1,1201 @@
+[
+  {
+    "messages_state": [
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      }
+    ],
+    "prompt": [
+      {
+        "type": "system",
+        "data": {
+          "content": "You are a helpful assistant. Use the provided tools to solve math problems step by step.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "system",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      }
+    ],
+    "result": [
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      }
+    ]
+  },
+  {
+    "messages_state": [
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "prompt": [
+      {
+        "type": "system",
+        "data": {
+          "content": "You are a helpful assistant. Use the provided tools to solve math problems step by step.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "system",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "result": [
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "1d4848ak3",
+                "function": {
+                  "arguments": "{\"a\":2925,\"b\":10}",
+                  "name": "add"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 380,
+              "total_tokens": 399,
+              "completion_time": 0.028963504,
+              "prompt_time": 0.032440652,
+              "queue_time": 0.087554724,
+              "total_time": 0.061404156
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_9e1e8f8435",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--ea0833a5-0960-4ecc-ad8e-f937f73de1cb-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "add",
+              "args": {
+                "a": 2925,
+                "b": 10
+              },
+              "id": "1d4848ak3",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 380,
+            "output_tokens": 19,
+            "total_tokens": 399
+          }
+        }
+      }
+    ]
+  },
+  {
+    "messages_state": [
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "1d4848ak3",
+                "function": {
+                  "arguments": "{\"a\":2925,\"b\":10}",
+                  "name": "add"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 380,
+              "total_tokens": 399,
+              "completion_time": 0.028963504,
+              "prompt_time": 0.032440652,
+              "queue_time": 0.087554724,
+              "total_time": 0.061404156
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_9e1e8f8435",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--ea0833a5-0960-4ecc-ad8e-f937f73de1cb-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "add",
+              "args": {
+                "a": 2925,
+                "b": 10
+              },
+              "id": "1d4848ak3",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 380,
+            "output_tokens": 19,
+            "total_tokens": 399
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2935",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "add",
+          "id": "aeb64faf-0a15-4f36-9bac-78caa1013b42",
+          "tool_call_id": "1d4848ak3",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "prompt": [
+      {
+        "type": "system",
+        "data": {
+          "content": "You are a helpful assistant. Use the provided tools to solve math problems step by step.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "system",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "1d4848ak3",
+                "function": {
+                  "arguments": "{\"a\":2925,\"b\":10}",
+                  "name": "add"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 380,
+              "total_tokens": 399,
+              "completion_time": 0.028963504,
+              "prompt_time": 0.032440652,
+              "queue_time": 0.087554724,
+              "total_time": 0.061404156
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_9e1e8f8435",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--ea0833a5-0960-4ecc-ad8e-f937f73de1cb-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "add",
+              "args": {
+                "a": 2925,
+                "b": 10
+              },
+              "id": "1d4848ak3",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 380,
+            "output_tokens": 19,
+            "total_tokens": 399
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2935",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "add",
+          "id": "aeb64faf-0a15-4f36-9bac-78caa1013b42",
+          "tool_call_id": "1d4848ak3",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "result": [
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "xgvswrzw1",
+                "function": {
+                  "arguments": "{\"a\":2935,\"b\":50}",
+                  "name": "divide"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 20,
+              "prompt_tokens": 411,
+              "total_tokens": 431,
+              "completion_time": 0.037553644,
+              "prompt_time": 0.034287721,
+              "queue_time": 0.434289259,
+              "total_time": 0.071841365
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--42da46ce-d958-47ac-a7d7-db96877a0de0-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "divide",
+              "args": {
+                "a": 2935,
+                "b": 50
+              },
+              "id": "xgvswrzw1",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 411,
+            "output_tokens": 20,
+            "total_tokens": 431
+          }
+        }
+      }
+    ]
+  },
+  {
+    "messages_state": [
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "1d4848ak3",
+                "function": {
+                  "arguments": "{\"a\":2925,\"b\":10}",
+                  "name": "add"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 380,
+              "total_tokens": 399,
+              "completion_time": 0.028963504,
+              "prompt_time": 0.032440652,
+              "queue_time": 0.087554724,
+              "total_time": 0.061404156
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_9e1e8f8435",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--ea0833a5-0960-4ecc-ad8e-f937f73de1cb-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "add",
+              "args": {
+                "a": 2925,
+                "b": 10
+              },
+              "id": "1d4848ak3",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 380,
+            "output_tokens": 19,
+            "total_tokens": 399
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2935",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "add",
+          "id": "aeb64faf-0a15-4f36-9bac-78caa1013b42",
+          "tool_call_id": "1d4848ak3",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "xgvswrzw1",
+                "function": {
+                  "arguments": "{\"a\":2935,\"b\":50}",
+                  "name": "divide"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 20,
+              "prompt_tokens": 411,
+              "total_tokens": 431,
+              "completion_time": 0.037553644,
+              "prompt_time": 0.034287721,
+              "queue_time": 0.434289259,
+              "total_time": 0.071841365
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--42da46ce-d958-47ac-a7d7-db96877a0de0-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "divide",
+              "args": {
+                "a": 2935,
+                "b": 50
+              },
+              "id": "xgvswrzw1",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 411,
+            "output_tokens": 20,
+            "total_tokens": 431
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "58.7",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "divide",
+          "id": "ecbc4a19-082a-41c4-b52e-5e18081b967b",
+          "tool_call_id": "xgvswrzw1",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "prompt": [
+      {
+        "type": "system",
+        "data": {
+          "content": "You are a helpful assistant. Use the provided tools to solve math problems step by step.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "system",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "human",
+        "data": {
+          "content": "Multiply 45 by 65 and then add 10 to it and divide by 50",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": "7649a57d-7c43-4a6b-92a1-de5d78a3386a",
+          "example": false
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "bb9fsva4p",
+                "function": {
+                  "arguments": "{\"a\":45,\"b\":65}",
+                  "name": "multiply"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 349,
+              "total_tokens": 368,
+              "completion_time": 0.059537066,
+              "prompt_time": 0.029477144,
+              "queue_time": 0.105716144,
+              "total_time": 0.08901421
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--2ccaee43-0390-4d05-a380-bdeae707c279-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "multiply",
+              "args": {
+                "a": 45,
+                "b": 65
+              },
+              "id": "bb9fsva4p",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 349,
+            "output_tokens": 19,
+            "total_tokens": 368
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2925",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "multiply",
+          "id": "0d042193-03c6-40e5-b620-1976e79c4e67",
+          "tool_call_id": "bb9fsva4p",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "1d4848ak3",
+                "function": {
+                  "arguments": "{\"a\":2925,\"b\":10}",
+                  "name": "add"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 19,
+              "prompt_tokens": 380,
+              "total_tokens": 399,
+              "completion_time": 0.028963504,
+              "prompt_time": 0.032440652,
+              "queue_time": 0.087554724,
+              "total_time": 0.061404156
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_9e1e8f8435",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--ea0833a5-0960-4ecc-ad8e-f937f73de1cb-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "add",
+              "args": {
+                "a": 2925,
+                "b": 10
+              },
+              "id": "1d4848ak3",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 380,
+            "output_tokens": 19,
+            "total_tokens": 399
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "2935",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "add",
+          "id": "aeb64faf-0a15-4f36-9bac-78caa1013b42",
+          "tool_call_id": "1d4848ak3",
+          "artifact": null,
+          "status": "success"
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "",
+          "additional_kwargs": {
+            "tool_calls": [
+              {
+                "id": "xgvswrzw1",
+                "function": {
+                  "arguments": "{\"a\":2935,\"b\":50}",
+                  "name": "divide"
+                },
+                "type": "function"
+              }
+            ]
+          },
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 20,
+              "prompt_tokens": 411,
+              "total_tokens": 431,
+              "completion_time": 0.037553644,
+              "prompt_time": 0.034287721,
+              "queue_time": 0.434289259,
+              "total_time": 0.071841365
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "tool_calls",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--42da46ce-d958-47ac-a7d7-db96877a0de0-0",
+          "example": false,
+          "tool_calls": [
+            {
+              "name": "divide",
+              "args": {
+                "a": 2935,
+                "b": 50
+              },
+              "id": "xgvswrzw1",
+              "type": "tool_call"
+            }
+          ],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 411,
+            "output_tokens": 20,
+            "total_tokens": 431
+          }
+        }
+      },
+      {
+        "type": "tool",
+        "data": {
+          "content": "58.7",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "tool",
+          "name": "divide",
+          "id": "ecbc4a19-082a-41c4-b52e-5e18081b967b",
+          "tool_call_id": "xgvswrzw1",
+          "artifact": null,
+          "status": "success"
+        }
+      }
+    ],
+    "result": [
+      {
+        "type": "ai",
+        "data": {
+          "content": "The final answer is 58.7.",
+          "additional_kwargs": {},
+          "response_metadata": {
+            "token_usage": {
+              "completion_tokens": 10,
+              "prompt_tokens": 444,
+              "total_tokens": 454,
+              "completion_time": 0.025969667,
+              "prompt_time": 0.036810782,
+              "queue_time": 0.500275173,
+              "total_time": 0.062780449
+            },
+            "model_name": "llama-3.3-70b-versatile",
+            "system_fingerprint": "fp_155ab82e98",
+            "service_tier": "on_demand",
+            "finish_reason": "stop",
+            "logprobs": null
+          },
+          "type": "ai",
+          "name": null,
+          "id": "run--e0586021-4210-44a0-b12e-36cecdc0e4f3-0",
+          "example": false,
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 444,
+            "output_tokens": 10,
+            "total_tokens": 454
+          }
+        }
+      }
+    ]
+  }
+]
